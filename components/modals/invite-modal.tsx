@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import axios from "axios";
 import { Check, Copy, RefreshCw } from "lucide-react";
 import { useState } from "react";

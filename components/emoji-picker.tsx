@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/popover";
 
 interface EmojiPickerProps {
+  // eslint-disable-next-line no-unused-vars
   onChange: (value: string) => void;
 }
 
