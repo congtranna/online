@@ -52,14 +52,14 @@ export const DeleteChannelModal = () => {
       <DialogContent className="bg-white text-black p-0 overflow-hidden">
         <DialogHeader className="pt-8 px-6">
           <DialogTitle className="text-2xl text-center font-bold">
-            Delete Channel
+            Delete Group
           </DialogTitle>
           <DialogDescription className="text-center text-zinc-500">
             Are you sure you want to do this? <br />
             <span className="text-green-500 font-semibold">
               #{channel?.name}
             </span>{" "}
-            will be deleted this channel in this server.
+            will be deleted this group in this server.
           </DialogDescription>
         </DialogHeader>
         <DialogFooter className="bg-gray-100 px-6 py-4">
